@@ -4,7 +4,9 @@
   "description": "An interactive quiz application",
   "main": "index.html",
   "scripts": {
-    "start": "serve ."
+    "start": "serve .",
+    "build": "echo 'No build step required'",
+    "vercel-build": "echo 'No build step required'"
   },
   "dependencies": {
     "serve": "^14.2.1"
